@@ -9,7 +9,8 @@ public class PlayerController : MonoBehaviour
     private Coroutine jumpForceChange;
     private Coroutine speedChange;
 
-    public void PowerupValueChange(Pickup.PickupType type)
+    // Another line of code that was changed to comment to be reverted later Aug 15th because of the content powerup
+   /* public void PowerupValueChange(Pickup.PickupType type)
     {
         if (type == Pickup.PickupType.PowerupSpeed)
             StartPowerupCoroutine(ref speedChange, ref speed, type);
@@ -28,9 +29,10 @@ public class PlayerController : MonoBehaviour
         }
 
         InCoroutine = StartCoroutine(PowerupChange(type));
-    }
+    }*/
 
-    IEnumerator PowerupChange(Pickup.PickupType type)
+    // Aug 15th This section was modified to a comment because of the Pickup class
+    /*IEnumerator PowerupChange(Pickup.PickupType type)
     {
         //this code runs before the wait
         if (type == Pickup.PickupType.PowerupSpeed)
@@ -55,7 +57,7 @@ public class PlayerController : MonoBehaviour
         }
 
         Debug.Log($"Jump force value is {jumpForce}, Speed value is {speed}");
-    }
+    }*/
 
     //Private Lives Variable
     private int _lives = 10;
