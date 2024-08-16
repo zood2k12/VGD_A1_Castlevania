@@ -123,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Walk_01
+      name: Idle
       rect:
         serializedVersion: 2
         x: 16
@@ -144,7 +144,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk_02
+      name: Walk_01
       rect:
         serializedVersion: 2
         x: 41
@@ -165,7 +165,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk_03
+      name: Walk_02
       rect:
         serializedVersion: 2
         x: 64
@@ -637,6 +637,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Idle: -555518332
       Jump_Crouch_01: 1402368102
       NES - Castlevania 2 Simons Quest - Simon Belmont_11: 1645646977
       NES - Castlevania 2 Simons Quest - Simon Belmont_12: -214928670
@@ -697,9 +698,8 @@ TextureImporter:
       NES - Castlevania 2 Simons Quest - Simon Belmont_7: 1643075797
       NES - Castlevania 2 Simons Quest - Simon Belmont_8: 550519649
       NES - Castlevania 2 Simons Quest - Simon Belmont_9: 999711949
-      Walk_01: -555518332
-      Walk_02: 1252758098
-      Walk_03: -617293837
+      Walk_01: 1252758098
+      Walk_02: -617293837
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
