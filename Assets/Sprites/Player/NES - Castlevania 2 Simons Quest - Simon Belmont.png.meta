@@ -333,7 +333,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crouch_01
+      name: Jump_Crouch_01
       rect:
         serializedVersion: 2
         x: 16
@@ -637,7 +637,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Crouch_01: 1402368102
+      Jump_Crouch_01: 1402368102
       NES - Castlevania 2 Simons Quest - Simon Belmont_11: 1645646977
       NES - Castlevania 2 Simons Quest - Simon Belmont_12: -214928670
       NES - Castlevania 2 Simons Quest - Simon Belmont_13: -1152359189
