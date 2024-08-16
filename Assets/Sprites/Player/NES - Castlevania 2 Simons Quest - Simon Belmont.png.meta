@@ -69,7 +69,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -228,7 +228,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NES - Castlevania 2 Simons Quest - Simon Belmont_5
+      name: Attack_06
       rect:
         serializedVersion: 2
         x: 130
@@ -501,7 +501,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NES - Castlevania 2 Simons Quest - Simon Belmont_23
+      name: Attack_01
       rect:
         serializedVersion: 2
         x: 16
@@ -522,7 +522,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NES - Castlevania 2 Simons Quest - Simon Belmont_24
+      name: Attack_02
       rect:
         serializedVersion: 2
         x: 56
@@ -543,13 +543,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NES - Castlevania 2 Simons Quest - Simon Belmont_25
+      name: Attack_03
       rect:
         serializedVersion: 2
         x: 98
         y: 137
-        width: 46
-        height: 30
+        width: 48
+        height: 33
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -564,7 +564,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NES - Castlevania 2 Simons Quest - Simon Belmont_26
+      name: Attack_04
       rect:
         serializedVersion: 2
         x: 146
@@ -606,7 +606,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NES - Castlevania 2 Simons Quest - Simon Belmont_28
+      name: Attack_05
       rect:
         serializedVersion: 2
         x: 178
@@ -637,6 +637,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Attack_01: 147264361
+      Attack_02: -170633185
+      Attack_03: 1300212616
+      Attack_04: -605481816
+      Attack_05: -1393590720
+      Attack_06: 1963875146
       Idle: -555518332
       Jump_Crouch_01: 1402368102
       NES - Castlevania 2 Simons Quest - Simon Belmont_11: 1645646977
@@ -651,12 +657,7 @@ TextureImporter:
       NES - Castlevania 2 Simons Quest - Simon Belmont_20: 1662387155
       NES - Castlevania 2 Simons Quest - Simon Belmont_21: 1522089437
       NES - Castlevania 2 Simons Quest - Simon Belmont_22: -528521003
-      NES - Castlevania 2 Simons Quest - Simon Belmont_23: 147264361
-      NES - Castlevania 2 Simons Quest - Simon Belmont_24: -170633185
-      NES - Castlevania 2 Simons Quest - Simon Belmont_25: 1300212616
-      NES - Castlevania 2 Simons Quest - Simon Belmont_26: -605481816
       NES - Castlevania 2 Simons Quest - Simon Belmont_27: 208649538
-      NES - Castlevania 2 Simons Quest - Simon Belmont_28: -1393590720
       NES - Castlevania 2 Simons Quest - Simon Belmont_29: -828772493
       NES - Castlevania 2 Simons Quest - Simon Belmont_3: -2065589909
       NES - Castlevania 2 Simons Quest - Simon Belmont_30: -1873642343
@@ -680,7 +681,6 @@ TextureImporter:
       NES - Castlevania 2 Simons Quest - Simon Belmont_47: -176382437
       NES - Castlevania 2 Simons Quest - Simon Belmont_48: -1683848109
       NES - Castlevania 2 Simons Quest - Simon Belmont_49: -521005147
-      NES - Castlevania 2 Simons Quest - Simon Belmont_5: 1963875146
       NES - Castlevania 2 Simons Quest - Simon Belmont_50: -956699278
       NES - Castlevania 2 Simons Quest - Simon Belmont_51: 497590818
       NES - Castlevania 2 Simons Quest - Simon Belmont_52: 1443257388
