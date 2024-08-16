@@ -176,17 +176,19 @@ public class PlayerController : MonoBehaviour
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+            isGrounded = false;
         }
 
-        if (Input.GetButtonDown("Fire1"))
+    
+        if (Input.GetButtonDown("Fire1") && !curPlayingClips[0].clip.name.Contains("Attack"))
         {
-            if (!isGrounded && curPlayingClips[0].clip.name != "JumpAttack")
+            if (!isGrounded && curPlayingClips[0].clip.name != "Jump")
             {
-                anim.SetTrigger("JumpAttack");
+                anim.SetTrigger("Jump");
             }
             else if (!curPlayingClips[0].clip.name.Contains("Attack"))
             {
-                anim.SetTrigger("Fire");
+                anim.SetTrigger("Whip");
             }
         }
 
